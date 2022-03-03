@@ -12,17 +12,7 @@ Build Docker image:
 npm run build
 ```
 
-Start Docker container:
+Start Docker container and run tests:
 ```sh
 npm start
-```
-
-Get list of running containers:
-```sh
-docker ps -a
-```
-
-Run tests:
-```sh
-docker exec -it <CONTAINER_ID> npm test
 ```

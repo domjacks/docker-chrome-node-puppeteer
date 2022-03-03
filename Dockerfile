@@ -22,5 +22,6 @@ RUN curl -sL https://dl.google.com/linux/direct/google-chrome-stable_current_x86
 
 ADD . /tmp/puppeteer/
 WORKDIR /tmp/puppeteer/
-
 RUN npm i
+
+CMD npm test
